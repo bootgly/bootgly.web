@@ -50,8 +50,9 @@ composer create-project bootgly/bootgly.web my-bootgly-web-app
 
 Replace `my-bootgly-web-app` with the desired name of your project directory.
 
-3. Composer will download the Bootgly Web template and its dependencies, and create the project structure for you.
+**Composer will download the Bootgly Web template and its dependencies, and create the project structure for you.**
 
+<!--
 #### Option 2 - package init
 
 1. Open your terminal or command prompt.
@@ -84,7 +85,7 @@ composer init
 ```
 composer install
 ```
-
+-->
 ## 🔜 Next Steps
 
 Once you have initialized your Bootgly Web template repository either using GitHub or Composer, you can start developing your Web app/API. Here are a few recommended steps to get started:
