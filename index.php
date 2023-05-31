@@ -12,4 +12,4 @@
 
 #phpinfo(); exit;
 
-require_once '@imports/autoload.php';
+require_once __DIR__ . '/@imports/autoload.php';

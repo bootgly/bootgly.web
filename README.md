@@ -21,7 +21,7 @@ To get started with the Bootgly Web template repository on GitHub, follow the st
 
 1. Navigate to the main page of the Bootgly Web template repository on GitHub: Bootgly Web Template Repository.
 2. Click on the "Use this template" button located near the top-right corner of the repository page:
-| ![Click on the "Use this template"](https://github.com/bootgly/.github/raw/main/screenshots/bootgly-php-framework/Bootgly.Web-template.png) |
+![Click on the "Use this template"](https://github.com/bootgly/.github/raw/main/screenshots/bootgly-php-framework/Bootgly.Web-template.png)
 3. On the "Create a new repository" page, provide a name for your new repository.
 4. Optionally, add a description and choose the visibility and permissions for your repository.
 5. Click on the "Create repository from template" button to create your new repository based on the Bootgly Web template.
