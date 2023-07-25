@@ -48,7 +48,7 @@ git submodule update --init --recursive
 If you prefer using Composer to manage your PHP dependencies, follow the steps below to initialize the Bootgly Web template repository:
 
 <details>
-  <summary><b>Option 1 - create-project command</b></summary>
+  <summary><b>Option 1: create-project command</b></summary>
 
   To create a new project using the Bootgly Web template and Composer's create-project command, follow these steps:
 
