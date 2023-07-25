@@ -17,33 +17,52 @@ This repository serves as a template (starter kit) for creating Web apps/API usi
 
 ## 🧩 Templating
 
+### 1️⃣ Using Git
+
+#### Git init from template
+
 To get started with the Bootgly Web template repository on GitHub, follow the steps below:
 
-1. Navigate to the main page of the Bootgly Web template repository on GitHub: Bootgly Web Template Repository.
+1. Navigate to the main page of the Bootgly Web template repository on GitHub.
 2. Click on the "Use this template" button located near the top-right corner of the repository page:
 ![Click on the "Use this template"](https://github.com/bootgly/.github/raw/main/screenshots/bootgly-php-framework/Bootgly.Web-template.png)
 3. On the "Create a new repository" page, provide a name for your new repository.
 4. Optionally, add a description and choose the visibility and permissions for your repository.
 5. Click on the "Create repository from template" button to create your new repository based on the Bootgly Web template.
+6. Clone your repository created from the template.
 
-### Using Composer
+#### Initialize and update Submodules
+
+> Git submodules are a useful feature that allows you to include one Git repository inside another. In the context of your Bootgly Web template, we can use submodules to include any bootable repository (`bootgly-*`) in your project. This tutorial will guide you through the process of using Git submodules in your Bootgly Web template project.
+
+1. Open your terminal or command prompt.
+2. Navigate to your cloned Bootgly Web template project directory.
+3. To init the submodules, use the following commands:
+
+```
+git submodule update --init --recursive
+```
+
+### 2️⃣ Using Composer
 
 If you prefer using Composer to manage your PHP dependencies, follow the steps below to initialize the Bootgly Web template repository:
 
-#### Option 1 - create-project command
+<details>
+  <summary><b>Option 1 - create-project command</b></summary>
 
-To create a new project using the Bootgly Web template and Composer's create-project command, follow these steps:
+  To create a new project using the Bootgly Web template and Composer's create-project command, follow these steps:
 
-1. Open your terminal or command prompt.
-2. Run the following command to create a new project based on the Bootgly Web template:
+  1. Open your terminal or command prompt.
+  2. Run the following command to create a new project based on the Bootgly Web template:
 
-```
-composer create-project bootgly/bootgly.web my-bootgly-web-app
-```
+  ```
+  composer create-project bootgly/bootgly.web my-bootgly-web-app
+  ```
 
-Replace `my-bootgly-web-app` with the desired name of your project directory.
+  Replace `my-bootgly-web-app` with the desired name of your project directory.
 
-**Composer will download the Bootgly Web template and its dependencies, and create the project structure for you.**
+  **Composer will download the Bootgly Web template and its dependencies, and create the project structure for you.**
+</details>
 
 <!--
 #### Option 2 - package init
