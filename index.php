@@ -3,7 +3,7 @@
  * --------------------------------------------------------------------------
  * Bootgly PHP Framework
  * Developed by Rodrigo Vieira (@rodrigoslayertech)
- * Copyright 2020-present
+ * Copyright 2023-present
  * Licensed under MIT
  * --------------------------------------------------------------------------
  */
@@ -12,4 +12,4 @@
 
 #phpinfo(); exit;
 
-require_once __DIR__ . '/@imports/autoload.php';
+(@include __DIR__ . '/@imports/autoload.php') || exit(1);
