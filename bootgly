@@ -13,4 +13,7 @@
 
 #phpinfo(); exit;
 
-(@include __DIR__ . '/@imports/autoload.php') || exit('Type `composer install` to install dependencies.' . PHP_EOL);
+define('BOOTGLY_WORKING_BASE', __DIR__);
+define('BOOTGLY_WORKING_DIR', BOOTGLY_WORKING_BASE . DIRECTORY_SEPARATOR);
+
+(@include __DIR__ . '/@imports/autoload.php') || exit("Type `composer install` to install dependencies.\n");
