@@ -24,7 +24,9 @@
 
    "require": {
       "php": "^8.2",
-      "bootgly/bootgly": "dev-main"
+      "bootgly/bootgly": "dev-main",
+      "bootgly/bootgly.console": "dev-main",
+      "bootgly/bootgly.web": "dev-main"
    },
    "minimum-stability": "dev"
 }
