@@ -4,3 +4,6 @@
 [submodule "Web"]
 	path = Web
 	url = https://github.com/bootgly/bootgly-web
+[submodule "Bootgly"]
+	path = Bootgly
+	url = https://github.com/bootgly/bootgly
