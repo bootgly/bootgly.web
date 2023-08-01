@@ -56,10 +56,10 @@ If you prefer using Composer to manage your PHP dependencies, follow the steps b
   2. Run the following command to create a new project based on the Bootgly Web template:
 
   ```
-  composer create-project bootgly/bootgly.web my-bootgly-web-app
+  composer create-project bootgly/bootgly.web bootgly.web
   ```
 
-  Replace `my-bootgly-web-app` with the desired name of your project directory.
+  Replace `bootgly.web` with the desired name of your project directory.
 
   **Composer will download the Bootgly Web template and its dependencies, and create the project structure for you.**
 </details>
