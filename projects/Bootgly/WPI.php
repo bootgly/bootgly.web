@@ -1,6 +1,10 @@
 <?php
 
+namespace projects\Bootgly;
+
+
 use Web\App;
+
 
 // ! Global Routes
 switch ($Request->host) {

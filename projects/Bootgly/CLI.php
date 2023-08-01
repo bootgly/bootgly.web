@@ -1,5 +1,6 @@
 <?php
-namespace projects;
+
+namespace projects\Bootgly;
 
 
 use Bootgly\CLI;
