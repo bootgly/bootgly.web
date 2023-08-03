@@ -103,7 +103,7 @@ composer install
 Once you have initialized your Bootgly Web template repository either using GitHub or Composer, you can start developing your Web app/API. Here are a few recommended steps to get started:
 
 1. Review the [Bootgly documentation][BOOTGLY_DOCS] to understand the features and capabilities of the Bootgly Web.
-2. Check `projects\*.constructor.php` files.
+2. Check constructor files: `projects\Bootgly.php`, `projects\CLI.php` and `projects\WPI.php`.
 3. Test your Web application locally to ensure it functions as expected. You can use the provided testing tools and utilities included in the Bootgly Web.
 4. Add any additional dependencies or libraries your application requires to the composer.json file and install them using Composer.
 5. Document your Web app/API by updating the README file and providing instructions on how to use and configure your application.
