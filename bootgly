@@ -20,13 +20,21 @@ define('BOOTGLY_WORKING_DIR', BOOTGLY_WORKING_BASE . DIRECTORY_SEPARATOR);
    (@include __DIR__ . '/Web/autoload.php')
 ) ||
 exit(<<<STATUS
-To install dependencies using composer:
-----------------
-composer install
-----------------
 
-Or you can use only git submodule to manage and track dependencies:
----------------------------------------
+To install dependencies using composer:
+----------------\033[1;36m
+composer install
+\033[0m----------------\033[5m
+Or...\033[0m
+you can use only git submodule to manage and track dependencies:
+---------------------------------------\033[1;36m
 git submodule update --init --recursive
----------------------------------------\n
+\033[0m---------------------------------------
+
+Finally, test if the Bootgly CLI works with the following command:
+---------------------------------------\033[1;36m
+php bootgly
+\033[0m---------------------------------------
+
+
 STATUS);
