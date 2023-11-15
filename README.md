@@ -11,9 +11,9 @@
   </a>
 </p>
 
-You should use this repository to start building your Web workables.
+You should use this repository to start develop your Web APIs, Apps, etc.
 
-This repository serves as a template (starter kit) for creating Web apps/API using the Bootgly Web, which is a part of the [Bootgly PHP Framework][BOOTGLY_PHP_FRAMEWORK].
+This repository serves as a template (starter kit) for you to start developing using the Bootgly Web, which is a part of the [Bootgly PHP Framework][BOOTGLY_PHP_FRAMEWORK].
 
 ## 🧩 Templating
 
