@@ -106,8 +106,8 @@ Once you have initialized your Bootgly Web template repository either using GitH
 Here are suggestions for next steps:
 
 1. Review the [Bootgly documentation][BOOTGLY_DOCS] to understand the features and capabilities of the Bootgly Web.
-2. Check [boot files][BOOTGLY_DOCS_BOOTSTRAP]: `projects\*.boot.php`.
-3. Test your Web project locally to ensure it functions as expected. You can use the provided testing tools and utilities included in the Bootgly (check `bootgly test` command).
+2. Check all [boot files][BOOTGLY_DOCS_BOOTSTRAP] in the resource directory `projects/`: `*.boot.php`.
+3. Test your Web project locally to ensure it works as expected. You can use the provided testing tools and utilities included in the Bootgly (check `bootgly test` command).
 4. Add any additional dependencies or libraries your application requires to the `composer.json` file and install them using Composer.
 5. Document your Web project by updating the `README.md` file and providing instructions on how to use and configure your project.
 6. Once you are ready, consider publishing your Web project to Packagist to make it available to others. 
