@@ -101,9 +101,15 @@ git submodule update --init --recursive
 
 ## 🔜 Next Steps
 
-Once you have initialized your Bootgly Web template repository either using GitHub or Composer, you can start developing with Bootgly Web.
+Once you have initialized your Bootgly Web template repository either using GitHub or Composer, you need to `boot` the `resource dirs` to start developing!
 
-Here are suggestions for next steps:
+Type in your terminal the command:
+
+```bash
+php bootgly boot --resources
+```
+
+Now you're ready to go! Here are suggestions for next steps:
 
 1. Review the [Bootgly documentation][BOOTGLY_DOCS] to understand the features and capabilities of the Bootgly Web.
 2. Check all [boot files][BOOTGLY_DOCS_BOOTSTRAP] in the resource directory `projects/`: `*.boot.php`.
