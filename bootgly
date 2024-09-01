@@ -14,10 +14,10 @@ define('BOOTGLY_WORKING_DIR', BOOTGLY_WORKING_BASE . DIRECTORY_SEPARATOR);
 
 // @ Autoload Composer (if exists):
 (@include __DIR__ . '/@imports/autoload.php') ||
-(  // @ Autoload Bootgly Platforms (as git submodules):
-   (@include __DIR__ . '/Bootgly/autoload.php') &&
-   (@include __DIR__ . '/Console/autoload.php') &&
-   (@include __DIR__ . '/Web/autoload.php')
+(  // @ Autoboot Bootgly Platforms (as git submodules):
+   (@include __DIR__ . '/Bootgly/autoboot.php') &&
+   (@include __DIR__ . '/Console/autoboot.php') &&
+   (@include __DIR__ . '/Web/autoboot.php')
 ) ||
 exit(<<<STATUS
 
