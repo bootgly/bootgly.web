@@ -1,5 +1,6 @@
 {
    "name": "bootgly/bootgly.web",
+   "version": "0.1.0-alpha",
    "type": "project",
    "description": "The Bootgly Web template.",
    "license": "MIT",
@@ -7,7 +8,9 @@
       "bootgly",
       "php",
       "framework",
+
       "web",
+
       "template"
    ],
    "authors": [
@@ -23,7 +26,6 @@
    },
 
    "require": {
-      "php": "^8.2",
       "bootgly/bootgly": "dev-main",
       "bootgly/bootgly-console": "dev-main",
       "bootgly/bootgly-web": "dev-main"
